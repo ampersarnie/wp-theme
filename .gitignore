@@ -1,5 +1,21 @@
-vendor/
-node_modules/
-dist/
+.vscode
 
-inc/asset-settings.php
+.git
+**/*/.git
+**/*/.gitignore
+
+src/
+**/*/src
+
+node_modules/
+**/*/node_modules/
+
+composer.json
+**/*/composer.json
+composer.lock
+**/*/composer.lock
+
+package.json
+**/*/package.json
+package-lock.json
+**/*/package-lock.json
