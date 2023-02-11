@@ -1,0 +1,60 @@
+{
+    "version": 2,
+    "settings": {
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1000px"
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell, \"Helvetica Neue\",sans-serif",
+                    "slug": "system-font",
+                    "name": "System Font"
+                },
+                {
+                    "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
+                    "slug": "helvetica-arial",
+                    "name": "Helvetica or Arial"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "slug": "medium",
+                    "size": "16px",
+                    "name": "Medium"
+                },
+                {
+                    "slug": "big",
+                    "size": "32px",
+                    "name": "Big"
+                },
+                {
+                    "slug": "x-large",
+                    "size": "46px",
+                    "name": "Large"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "typography": {
+            "fontSize": "var(--wp--preset--font-size--normal)",
+            "fontFamily": "var(--wp--preset--font-family--system-font)",
+            "lineHeight": "var(--wp--preset--font-size--big)"
+        }
+    },
+    "customTemplates": {},
+    "templateParts": [
+        {
+            "name": "header",
+            "title": "Header",
+            "area": "header"
+        },
+        {
+            "name": "footer",
+            "title": "Footer",
+            "area": "footer"
+        }
+    ]
+}

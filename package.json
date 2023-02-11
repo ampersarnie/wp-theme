@@ -1,0 +1,25 @@
+{
+  "name": "wp-theme",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "build-tools build --once",
+    "watch": "build-tools build",
+    "prod": "build-tools build --once --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ampersarnie/wp-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ampersarnie/wp-theme/issues"
+  },
+  "homepage": "https://github.com/ampersarnie/wp-theme#readme",
+  "devDependencies": {
+    "@bigbite/build-tools": "^1.2.0-beta.3"
+  }
+}
