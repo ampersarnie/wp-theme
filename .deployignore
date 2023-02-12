@@ -10,8 +10,6 @@ src/
 node_modules/
 **/*/node_modules/
 
-composer.json
-**/*/composer.json
 composer.lock
 **/*/composer.lock
 
