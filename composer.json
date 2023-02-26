@@ -28,6 +28,7 @@
         }
 	},
     "require-dev": {
-        "bigbite/phpcs-config": "^1.2"
+        "bigbite/phpcs-config": "^1.2",
+        "squizlabs/php_codesniffer": "^3.7"
     }
 }
