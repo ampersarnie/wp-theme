@@ -61,7 +61,7 @@ jobs:
               | awk -F: '{ print $2 }' \
               | sed 's/[",]//g')
             echo "$PACKAGE_VERSION -> $(git tag -l $PACKAGE_VERSION)"
-            if [ $(git tag -l "$PACKAGE_VERSION") ]; then
+            if [ $(git tag -l $PACKAGE_VERSION) ]; then
               echo "Halting the steps."
               circleci step halt
               circleci-agent step halt
