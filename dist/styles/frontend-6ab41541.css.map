@@ -1,0 +1,1 @@
+{"version":3,"file":"../styles/frontend-6ab41541.css","mappings":"AAAA,gBAEE,cADA,WACA,CAGF,uBACE,qB","sources":["webpack://wp-theme/./src/styles/frontend.scss"],"sourcesContent":[".wp-site-blocks {\n  width: 800px;\n  margin: 0 auto;\n}\n\n.wp-block-site-title a {\n  text-decoration: none;\n}\n"],"names":[],"sourceRoot":""}
